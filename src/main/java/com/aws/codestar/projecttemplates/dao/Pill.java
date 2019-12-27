@@ -9,8 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-@AllArgsConstructor
 @ToString
+@AllArgsConstructor
 public class Pill {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
