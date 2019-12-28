@@ -11,13 +11,13 @@ import javax.persistence.Id;
 @Entity
 @ToString
 @AllArgsConstructor
-public class Pill {
+public class Pills {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
     private String name;
-    private String Description;
+    private String description;
     private Integer weight;
 
-    protected Pill() {}
+    protected Pills() {}
 }
