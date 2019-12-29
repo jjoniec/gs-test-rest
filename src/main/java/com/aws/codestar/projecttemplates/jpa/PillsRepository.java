@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 
 public interface PillsRepository extends CrudRepository<Pills, Long> {
-    List<Pills> findAll();
+
     List<Pills> findByName(String name);
     Pills findById(long id);
 }
