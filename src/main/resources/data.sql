@@ -8,5 +8,5 @@ CREATE TABLE pills (
 );
 
 INSERT INTO pills (name, description, weight) VALUES
-  ('Kepra', 'Lek przeciwpadaczkowy', 500),
+  ('Name', 'Lek przeciwpadaczkowy', 500),
   ('Polopiryna', 'Przeciwgorączkowy', 250);
