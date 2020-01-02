@@ -1,12 +1,12 @@
-DROP TABLE IF EXISTS pills;
+DROP TABLE IF EXISTS product;
 
-CREATE TABLE pills (
+CREATE TABLE product (
   id INT AUTO_INCREMENT  PRIMARY KEY,
   name VARCHAR(250) NOT NULL,
   description VARCHAR(250) NOT NULL,
   weight INTEGER NOT NULL
 );
 
-INSERT INTO pills (name, description, weight) VALUES
-  ('Name1', 'Lek przeciwpadaczkowy', 500),
-  ('Polopiryna', 'Przeciwgorączkowy', 250);
+INSERT INTO product (name, description, weight) VALUES
+  ('Product 1', 'Nice product', 500),
+  ('Product 2', 'Ugly product', 250);

@@ -13,7 +13,7 @@ import javax.persistence.Id;
 @ToString
 @Getter
 @AllArgsConstructor
-public class Pills {
+public class Product {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
@@ -21,5 +21,5 @@ public class Pills {
     private String description;
     private Integer weight;
 
-    protected Pills() {}
+    protected Product() {}
 }
