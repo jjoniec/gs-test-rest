@@ -9,4 +9,4 @@ CREATE TABLE product (
 
 INSERT INTO product (name, description, weight) VALUES
   ('Product 1', 'Nice product', 500),
-  ('Product 2', 'Ugly product', 250);
+  ('Product 2', 'Also Nice product', 250);
